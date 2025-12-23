@@ -6,13 +6,13 @@ const card = document.getElementById("card");
 let stage = 0;
 
 const stages = [
-  { text: "Hehe 😚 it’s your special day Mamita g 💖" },
+  { text: "Hehe (⁠〃ﾟ⁠3ﾟ⁠〃⁠) it’s your special day Mamita g 💖" },
   { text: "So I wanted to make something special for you ✨" },
   {
-    text: "Do you wanna see what I made? 👀",
+    text: "Do you wanna see what I made? ",
     buttons: [
-      { label: "Yes 😍", action: () => nextStage() },
-      { label: "No 🙈", action: () => alert("Hehe no escape 😼") }
+      { label: "Yes 🤭", action: () => nextStage() },
+      { label: "No 👹", action: () => alert("Hehe u can't escape my darling 👁️👅👁️") }
     ]
   },
   {
@@ -36,7 +36,7 @@ const stages = [
     }]
   },
   {
-    text: "Let’s decorate this place 🎀",
+    text: "Let’s decorate this place ",
     buttons: [{
       label: "Decorate ✨",
       action: () => {
